@@ -41,7 +41,6 @@ Ensure you have the following dependencies installed:
 
 - **Medication Reminders and Scheduling:** Set up and manage reminders using Google Calendar.
  ![Screenshot 2024-12-16 093300](https://github.com/user-attachments/assets/928b1ca4-bc3d-44c1-98fc-a43f4f477785)
-![Screenshot 2024-12-16 093300](https://github.com/user-attachments/assets/a419c4e0-c3c6-42a8-9b7e-a92c2d5f5902)
  
 
 
