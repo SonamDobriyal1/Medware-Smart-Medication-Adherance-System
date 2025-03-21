@@ -1,4 +1,4 @@
-# Medware - Medication Management System
+![Screenshot 2024-12-16 093300](https://github.com/user-attachments/assets/a419c4e0-c3c6-42a8-9b7e-a92c2d5f5902)# Medware - Medication Management System
 
 ## Overview
 Medware is a Flask-based web application designed to simplify and enhance medication management through intelligent reminders and notifications. The platform leverages OAuth-based authentication for secure and seamless user login, integrating with the Google Cloud Console to utilize the Google Calendar API for scheduling medication reminders and sending timely notifications. This ensures users can effectively manage their medication routines while leveraging the familiar interface of Google Calendar.
@@ -33,22 +33,23 @@ Ensure you have the following dependencies installed:
 
 ## Usage
 - **User Authentication:** Secure login via OAuth.
-- ![image](https://github.com/user-attachments/assets/d16925ba-f4f0-4490-a03d-e00cc43af5a5)
-- ![image](https://github.com/user-attachments/assets/c6ee8bac-5dea-4d92-80b2-24117cf92786)
-![image](https://github.com/user-attachments/assets/3a10643b-4601-46ce-8293-3da62b39ad99)
-- ![image](https://github.com/user-attachments/assets/9e819fb9-7d9a-49bc-85b5-66ac3709d3c3)
+![Screenshot 2024-12-16 095817](https://github.com/user-attachments/assets/304d3524-8be0-48b4-8f0e-4b7a0d2625ea)
+![Screenshot 2024-12-16 093159](https://github.com/user-attachments/assets/a544f66f-a41f-403f-bb2e-888947ec07d3)
+![Screenshot 2024-12-16 093232](https://github.com/user-attachments/assets/e2f675a2-ca2c-459d-bc94-1b63650d6bd4)
+![Screenshot 2024-12-16 093330](https://github.com/user-attachments/assets/1f201a0d-b899-4cee-8065-1d0b7aa952b9)
 
-- **Medication Reminders:** Set up and manage reminders using Google Calendar.
-- ![image](https://github.com/user-attachments/assets/aef85184-503e-49a8-8371-b67e972cbbf7)
+
+- **Medication Reminders and Scheduling:** Set up and manage reminders using Google Calendar.
+ ![Screenshot 2024-12-16 093300](https://github.com/user-attachments/assets/928b1ca4-bc3d-44c1-98fc-a43f4f477785)
+ 
 
 
 - **AI Chatbot:** Get medication-related advice and support.
-- ![image](https://github.com/user-attachments/assets/1acfbcb9-9d19-4544-b8eb-a81b6d7bdda7)
-- ![image](https://github.com/user-attachments/assets/389d2239-fcb6-4ead-878d-0afd08fa825b)
+![Screenshot 2024-12-16 093417](https://github.com/user-attachments/assets/d2bb0be1-fa44-40c2-bcd7-9c6d6b8067b4)
+![Screenshot 2024-12-16 093455](https://github.com/user-attachments/assets/d03981b3-8c5e-4e32-b1e9-46e034542240)
 
 
-- **Dashboard:** View and modify scheduled medications.
-- ![image](https://github.com/user-attachments/assets/42319ba1-c6a9-486a-9b99-33449e25da08)
+  
 
 
 ## System Architecture
