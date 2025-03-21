@@ -10,7 +10,7 @@ Additionally, Medware incorporates the Gemini API to provide an AI-powered chatb
 - Smart medication reminders integrated with Google Calendar API.
 - AI-powered chatbot for personalized health assistance.
 - User-friendly dashboard for managing medication schedules.
-- Notifications and alerts to reduce missed doses.
+
 
 ## Installation
 ### Prerequisites
