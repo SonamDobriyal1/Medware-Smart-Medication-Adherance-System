@@ -17,7 +17,6 @@ Additionally, Medware incorporates the Gemini API to provide an AI-powered chatb
 Ensure you have the following dependencies installed:
 - Python 3.x
 - Flask
-- OpenCV
 - NumPy
 - Google Cloud SDK (for Calendar API integration)
 - Gemini API key (for chatbot integration)
