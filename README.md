@@ -1,4 +1,4 @@
-![Screenshot 2024-12-16 093300](https://github.com/user-attachments/assets/a419c4e0-c3c6-42a8-9b7e-a92c2d5f5902)# Medware - Medication Management System
+# Medware - Medication Management System
 
 ## Overview
 Medware is a Flask-based web application designed to simplify and enhance medication management through intelligent reminders and notifications. The platform leverages OAuth-based authentication for secure and seamless user login, integrating with the Google Cloud Console to utilize the Google Calendar API for scheduling medication reminders and sending timely notifications. This ensures users can effectively manage their medication routines while leveraging the familiar interface of Google Calendar.
@@ -41,6 +41,7 @@ Ensure you have the following dependencies installed:
 
 - **Medication Reminders and Scheduling:** Set up and manage reminders using Google Calendar.
  ![Screenshot 2024-12-16 093300](https://github.com/user-attachments/assets/928b1ca4-bc3d-44c1-98fc-a43f4f477785)
+![Screenshot 2024-12-16 093300](https://github.com/user-attachments/assets/a419c4e0-c3c6-42a8-9b7e-a92c2d5f5902)
  
 
 
