@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot</title>
+  <!-- CSS FILES -->        
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+
+  <style>
+    /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Chatbot Container */
+.chat-container {
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Chatbot Title */
+.chatbot-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/* User Input Section */
+.prompt-box {
+  display: flex;
+  align-items: center;
+}
+
+.user-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 16px;
+  outline: none;
+}
+
+.go-btn {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.go-btn:hover {
+  background-color: #0066cc;
+}
+
+/* Chat History Section (placeholder styles) */
+.chat-history {
+  margin-top: 20px;
+  min-height: 200px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  overflow-y: scroll;
+}
+
+.output {
+  font-size: 16px;
+  color: #333;
+
+
+}
+</style>
+</head>
+
+<!-- <body style="background-image: url(\images\logo.png);"> -->
+  <body id="section_1">
+
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-8 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <i class="bi-geo-alt me-2"></i>
+                        India, Delhi
+                    </p>
+
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:info@company.com">
+                            sonam.2426mca710@kiet.edu
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-youtube"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="\images\Gemini_Generated_Image_8s3tap8s3tap8s3t.jpg" class="logo img-fluid" alt="medware">
+                <span>
+                    MedWare
+                    <small>Your MedBuddy</small>
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+
+        </div>
+    </nav>
+
+  <main >
+    <!-- <img src="\images\Gemini_Generated_Image_8s3tap8s3tap8s3t.jpg" style="height: 100px; border-radius: 50%;"> -->
+
+    <h1 style="color: cadetblue; padding-bottom: 5%; margin-top: 2%;">MedBuddy</h1>
+    <form>
+
+      <div class="prompt-box">
+        <label>
+          <input name="prompt" placeholder="Enter instructions here" type="text"
+            value="" style="width: 500px; height: 100px;">
+        </label>
+        <button type="submit" style="margin: 2%; padding: 2%; ">Go</button>
+        <!-- <img src="\images\logo.png" style="height: 140px;"> -->
+      </div>
+    </form><div style="background-color: #ddd; margin-top: 10%; border-radius: 5px; padding: 2%;">
+    <p class="output">(Results will appear here)</p></div>
+  </main>
+  <script type="module" src="/main.js"></script>
+  <script src="https://unpkg.com/markdown-it@8.4.2/dist/markdown-it.min.js"></script>
+<!-- JAVASCRIPT FILES -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/click-scroll.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/custom.js"></script>
+
+
+
+</body>
+
+</html>
