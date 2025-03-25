@@ -66,6 +66,8 @@ Ensure you have the following dependencies installed:
 ## Contributors
 - Sonam Dobriyal
 - Vanshika Garg
+- Snigdha Pratap
+
 
 
 ## Acknowledgments
